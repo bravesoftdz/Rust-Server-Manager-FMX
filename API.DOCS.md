@@ -29,45 +29,45 @@ GET http://<IP>:<PORT>/GetPlugins
 
 ### Response:
 ```json
-[
-{
-"status": true,
-"message": "",
-"total": 5
-},
-{
-"plugins": [
-{
-"name": "Entity Limit",
-"author": "PaiN",
-"version": "0.6.3",
-"file": "EntityLimit.cs"
-},
-{
-"name": "FriendlyFire",
-"author": "playrust.io / dcode",
-"version": "1.6.0",
-"file": "FriendlyFire.cs"
-},
-{
-"name": "Gather Manager",
-"author": "Mughisi",
-"version": "2.2.6",
-"file": "GatherManager.cs"
-},
-{
-"name": "GUIAnnouncements",
-"author": "JoeSheep",
-"version": "1.23.83",
-"file": "GUIAnnouncements.cs"
-},
-{
-"name": "Heli Ride",
-"author": "ColonBlow",
-"version": "1.1.13",
-"file": "HeliRide.cs"
-}
-]
-}
+[  
+   {  
+      "status":true,
+      "message":"",
+      "total":5
+   },
+   {  
+      "plugins":[  
+         {  
+            "name":"Entity Limit",
+            "author":"PaiN",
+            "version":"0.6.3",
+            "file":"EntityLimit.cs"
+         },
+         {  
+            "name":"FriendlyFire",
+            "author":"playrust.io / dcode",
+            "version":"1.6.0",
+            "file":"FriendlyFire.cs"
+         },
+         {  
+            "name":"Gather Manager",
+            "author":"Mughisi",
+            "version":"2.2.6",
+            "file":"GatherManager.cs"
+         },
+         {  
+            "name":"GUIAnnouncements",
+            "author":"JoeSheep",
+            "version":"1.23.83",
+            "file":"GUIAnnouncements.cs"
+         },
+         {  
+            "name":"Heli Ride",
+            "author":"ColonBlow",
+            "version":"1.1.13",
+            "file":"HeliRide.cs"
+         }
+      ]
+   }
 ]
 ```
